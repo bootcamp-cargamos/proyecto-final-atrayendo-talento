@@ -15,3 +15,6 @@
 .bg-content{
     background-color: var(--content);
 }
+button{
+    border: none;
+}
