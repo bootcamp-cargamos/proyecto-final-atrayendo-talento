@@ -21,7 +21,11 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-default  z-index-4"><!--  -->
     <div class="container px-4">
       <a href="../index.html" class="navbar-brand">
+
         <img src="../images/Logo.png" width="100" alt="" />
+
+       
+
       </a>
       <!-- TOOGLER (Barritas mobile) -->
       <button class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu"
@@ -33,7 +37,7 @@
         <!-- Lista de Items -->
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">INICIO</a>
+            <a class="nav-link active" href="../index.html">INICIO</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -88,28 +92,25 @@
         </ul>
         <div class="d-flex mx-1 justify-content-between flex-nowrap">
 
-
-
-      
-
-
-
-   
-
-          <button id="btn_cart" class="btn btn-outline-light mx-1">
+          <form action="login.html">
+            <button id="btn_cart" class="btn btn-outline-light mx-1">
+          </form>
             <i class="bi bi-box-arrow-in-right"></i>
             Ingresar
           </button>
 
-          <button id="btn_cart" class="btn btn-outline-light mx-1">            
-            <i class="bi bi-box-arrow-right"></i>
-            
-            Registrarse
-          </button>
 
-          <button id="btn_cart" class="btn btn-outline-light mx-1">
-            <i class="bi bi-cart-check-fill"></i>
-            Comprar
+            <form action=""><button id="btn_cart" class="btn btn-outline-light mx-1"></form>            
+              <i class="bi bi-box-arrow-right">Registrarse</i>
+           
+            </button>
+
+          
+            <form action="cart.html"><button id="btn_cart" class="btn btn-outline-light mx-1"></form> 
+            
+              <i class="bi bi-cart-check-fill"> Comprar</i>
+            </a>
+           
             <span class="badge rounded-pill bg-dark ms-1">0</span>
           </button>
 
@@ -154,14 +155,15 @@
               Lorem Ipsum.
             </p>
 
-            <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-success w-50 pr-5 mb-3">
-                Agregar al carrito
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              
+              <button type="button" class="btn btn-success w-50 pr-5 mb-3"> 
+                <a href="cart.html" class="text-white text-decoration-none">Agregar al carrito</a>
               </button>
-            </div>
-            <div class="d-flex justify-content-center">
+          
+              
             <button type="button" class="btn btn-danger w-50">
-              Eliminar del carrito
+              <a href="../index.html" class="text-white text-decoration-none"> Eliminar del carrito</a>
             </button>
             </div>
           </div>
