@@ -18,116 +18,105 @@
   <body class="bg-background">
       <!-- NAVBAR Y BUSCADOR -->
   <!-- NAVBAR Y BUSCADOR -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-default  z-index-4"><!--  -->
-    <div class="container px-4">
-      <a href="../index.html" class="navbar-brand">
-
-        <img src="../images/Logo.png" width="100" alt="" />
-
-       
-
-      </a>
-      <!-- TOOGLER (Barritas mobile) -->
-      <button class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu"
-        aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- MENÚ DE NAVEGACIÓN -->
-      <div id="navbar_menu" class="navbar-collapse collapse">
-        <!-- Lista de Items -->
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="../index.html">INICIO</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a id="categorias" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">CATEGORÍAS</a>
-            <ul class="dropdown-menu" aria-labelledby="categorias">
-              <li>
-                <a class="dropdown-item" href="#"> Zapatos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Ropa</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Electrodomésticos </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Videojuegos </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Limpieza </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Celulares </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Vehículos </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Servicios</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Computadoras </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Electrinicos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Joyería</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Bicicletas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Juguetes</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Comida</a>
-              </li>
-            </ul>
-          </li>
-
-        </ul>
-        <div class="d-flex mx-1 justify-content-between flex-nowrap">
-
-          <form action="login.html">
-            <button id="btn_cart" class="btn btn-outline-light mx-1">
-          </form>
-            <i class="bi bi-box-arrow-in-right"></i>
-            Ingresar
-          </button>
-
-
-            <form action=""><button id="btn_cart" class="btn btn-outline-light mx-1"></form>            
-              <i class="bi bi-box-arrow-right">Registrarse</i>
-           
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-default  z-index-4 "><!--  -->
+      <div class="container px-4">
+        <a href="../index.html" class="navbar-brand">
+           <img src="../images/Logo.png" width="100" alt="" />
+    
+        </a>
+        <!-- TOOGLER (Barritas mobile) -->
+        <button class="navbar-toggler" role="button" data-bs-toggle="collapse" data-bs-target="#navbar_menu"
+          aria-controls="navbar_menu" aria-expanded="false" aria-label="Toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <div id="navbar_menu" class="navbar-collapse collapse">
+          <!-- Lista de Items -->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="categorias" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">CATEGORÍAS</a>
+              <ul class="dropdown-menu" aria-labelledby="categorias">
+                <li>
+                  <a class="dropdown-item" href="#"> Zapatos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Ropa</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Electrodomésticos </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Videojuegos </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Limpieza </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Celulares </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Vehículos </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Servicios</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Computadoras </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Electrinicos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Joyería</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bicicletas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Juguetes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Comida</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex mx-1 justify-content-between flex-nowrap">
+            <form action="login.html">
+              <button id="btn_cart" class="btn btn-outline-light mx-1">
+            </form>
+              <i class="bi bi-box-arrow-in-right"></i>
+              Ingresar
             </button>
-
-          
-            <form action="cart.html"><button id="btn_cart" class="btn btn-outline-light mx-1"></form> 
-            
-              <i class="bi bi-cart-check-fill"> Comprar</i>
-            </a>
-           
-            <span class="badge rounded-pill bg-dark ms-1">0</span>
-          </button>
-
+              <form action=""><button id="btn_cart" class="btn btn-outline-light mx-1"></form>
+                <i class="bi bi-box-arrow-right">Registrarse</i>
+    
+              </button>
+              <form action="cart.html"><button id="btn_cart" class="btn btn-outline-light mx-1"></form>
+    
+                <i class="bi bi-cart-check-fill"> Comprar</i>
+              </a>
+    
+              <span class="badge rounded-pill bg-dark ms-1">0</span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <div class="sticky-top bg-content py-2 z-index-3">
+    </nav>
+    <div class="bg-content py-2 z-index-3">
     
-    <form class="d-flex search ">
-      <button class="btn text-white mx-1 " type="submit"><i class="bi bi-search"></i>
-
-      </button>
-      <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-
-      
-    </form>
+      <form class="d-flex search ">
+        <button class="btn text-white mx-1 " type="submit"><i class="bi bi-search"></i>
+        </button>
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+    
+      </form>
+    </div>
   </div>
 
 
